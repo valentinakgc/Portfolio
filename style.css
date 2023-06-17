@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@400;500&family=Playfair+Display:wght@600&display=swap');
+
+.montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.vibes {
+    font-family: 'Great Vibes', cursive; 
+}
+
+.playfair {
+    font-family: 'Playfair Display', serif;
+}
+
+.home {
+    background-image: url(./image\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.darkRed {
+    color: #2B0504;
+}
+
+.red {
+    color: #510200;
+}
+
+.cinza {
+    color: #414141;
+}
+
+.rosa {
+    background-color: #FAF1EA;
+}

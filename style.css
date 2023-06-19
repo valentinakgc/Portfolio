@@ -2,6 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@400;500&family=Playfair+Display:wght@600&display=swap');
 
+body {
+    scroll-behavior: smooth;
+}
 .montserrat {
     font-family: 'Montserrat', sans-serif;
 }
@@ -15,7 +18,7 @@
 }
 
 .home {
-    background-image: url(./image\ 1.jpg);
+    background-image: url(./img/image\ 1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -34,4 +37,29 @@
 
 .rosa {
     background-color: #FAF1EA;
+}
+
+.borda-w {
+    width: 320px;
+}
+
+.borda-h {
+    height: 320px;
+}
+
+.topLeft {
+    bottom: -60px;
+    left: -60px;
+}
+
+.rosaClaro {
+    border-color: #FAF1EA;
+}
+
+.h-90vh {
+    height: 90vh;
+}
+
+.flutuante {
+    animation: floatImage 4s ease-in-out infinite;
 }

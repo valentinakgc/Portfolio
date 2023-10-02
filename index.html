@@ -5,9 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <script src="./scripts/csi.min.js"></script>
+  <title>Valentina</title>
 </head>
 <body class="w-screen">
 
@@ -18,8 +20,8 @@
     <a href="#habilidades" class="transition-colors duration-200 ease-in-out hover:text-[#8f0108]">habilidades</a>
     <a href="" class="transition-colors duration-200 ease-in-out hover:text-[#8f0108] vibes text-4xl">V</a>
     <a href="#cronograma" class="transition-colors duration-200 ease-in-out hover:text-[#8f0108]">cronograma</a>
-    <a href="./public/Currículo.pdf" class="transition-colors duration-200 ease-in-out hover:text-[#8f0108]">currículo</a>
-    <a href="" class="transition-colors duration-200 ease-in-out hover:text-[#8f0108]">matérias</a>
+    <a href="./public/Currículo.pdf" target="_blank" class="transition-colors duration-200 ease-in-out hover:text-[#8f0108]">currículo</a>
+    <a href="#materias" class="transition-colors duration-200 ease-in-out hover:text-[#8f0108]">matérias</a>
   </div>
 </nav>
 
@@ -132,6 +134,8 @@
   </div>
 </div>
 </div>
+
+<div data-include="./components/projetos/projetos.html"></div>
 
 <div class="rosa h-52 mt-32 ">
   <div class="mx-auto max-w-[50%] h-28 flex align-center items-center justify-between">

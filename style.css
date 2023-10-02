@@ -158,3 +158,17 @@ html {
   .ball-esquerda {
     right: 11px;
   }
+
+  .biblio {
+    background-image: url(./img/biblio.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .h-104 {
+    height: 40rem;
+  }
+
+  .w-104 {
+    width: 34rem;
+  }
